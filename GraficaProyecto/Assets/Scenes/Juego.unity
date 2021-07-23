@@ -433,17 +433,17 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: b7b0a173595c8e44fb0eebccb8199679,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.02
+      value: 0.015
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: b7b0a173595c8e44fb0eebccb8199679,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.02
+      value: 0.015
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: b7b0a173595c8e44fb0eebccb8199679,
         type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.02
+      value: 0.015
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: b7b0a173595c8e44fb0eebccb8199679,
         type: 3}
@@ -814,7 +814,7 @@ Transform:
   m_GameObject: {fileID: 1272451534}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: -0.9999998, z: 0.0000009536741}
-  m_LocalScale: {x: 1, y: 2, z: 2}
+  m_LocalScale: {x: 2, y: 3, z: 3}
   m_Children: []
   m_Father: {fileID: 657031421}
   m_RootOrder: 0
@@ -1084,16 +1084,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 054c19cd9824a4257a98a59874c988f3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 10
-  tilt: 5
+  speed: 20
+  tilt: 20
   boundary:
     xMin: 0
     xMax: 0
     zMin: 0
     zMax: 0
-  shot: {fileID: 0}
-  shotSpawn: {fileID: 0}
-  fireRate: 0
+  shot: {fileID: 100000, guid: f4ec271e525e14ca9927a07e6a2e153d, type: 3}
+  shotSpawn: {fileID: 1972083750}
+  fireRate: 0.25
 --- !u!54 &1602845094
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1110,6 +1110,20 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!64 &1602845095
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1602845091}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300002, guid: 5282f20eba4d44213820e21af8481932, type: 3}
 --- !u!1 &1694650914
 GameObject:
   m_ObjectHideFlags: 0
@@ -1327,3 +1341,9 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &1972083750 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400004, guid: 738bdf56857a65f479c367c7b62c4ad7,
+    type: 3}
+  m_PrefabInstance: {fileID: 1405073467}
+  m_PrefabAsset: {fileID: 0}
