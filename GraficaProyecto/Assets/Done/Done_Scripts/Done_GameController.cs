@@ -22,11 +22,7 @@ public class Done_GameController : MonoBehaviour
 	{
 		gameOver = false;
 		restart = false;
-		restartText.text = "";
-		gameOverText.text = "";
-		score = 0;
-		UpdateScore ();
-		StartCoroutine (SpawnWaves ());
+		
 	}
 	
 	void Update ()
@@ -67,13 +63,9 @@ public class Done_GameController : MonoBehaviour
 	public void AddScore (int newScoreValue)
 	{
 		score += newScoreValue;
-		UpdateScore ();
 	}
 	
-	void UpdateScore ()
-	{
-		scoreText.text = "Score: " + score;
-	}
+
 	
 	public void GameOver ()
 	{
