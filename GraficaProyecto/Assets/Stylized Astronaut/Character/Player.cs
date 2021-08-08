@@ -1,5 +1,7 @@
+﻿using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
-using System.Collections;
+using UnityEngine.UI;
 
 public class Player : MonoBehaviour {
 
@@ -14,7 +16,8 @@ public class Player : MonoBehaviour {
 		void Start () {
 			controller = GetComponent <CharacterController>();
 			anim = gameObject.GetComponentInChildren<Animator>();
-		}
+	
+	}
 
 		void Update (){
 			if (Input.GetKey ("w")) {
@@ -32,4 +35,5 @@ public class Player : MonoBehaviour {
 			controller.Move(moveDirection * Time.deltaTime);
 			moveDirection.y -= gravity * Time.deltaTime;
 		}
+	
 }

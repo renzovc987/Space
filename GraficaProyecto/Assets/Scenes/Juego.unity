@@ -225,6 +225,7 @@ GameObject:
   - component: {fileID: 85582860}
   - component: {fileID: 85582859}
   - component: {fileID: 85582858}
+  - component: {fileID: 85582862}
   m_Layer: 0
   m_Name: Tierra
   m_TagString: Untagged
@@ -306,6 +307,22 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &85582862
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 85582857}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b9b3bb2c265d27438ba6032fc506099, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  xAngle: 60
+  yAngle: 60
+  zAngle: 0
+  cube1: {fileID: 85582857}
 --- !u!1 &526153692
 GameObject:
   m_ObjectHideFlags: 0
@@ -318,6 +335,7 @@ GameObject:
   - component: {fileID: 526153695}
   - component: {fileID: 526153694}
   - component: {fileID: 526153693}
+  - component: {fileID: 526153697}
   m_Layer: 0
   m_Name: Venus
   m_TagString: Untagged
@@ -399,6 +417,22 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &526153697
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 526153692}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b9b3bb2c265d27438ba6032fc506099, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  xAngle: 60
+  yAngle: 60
+  zAngle: 0
+  cube1: {fileID: 526153692}
 --- !u!1 &602027650
 GameObject:
   m_ObjectHideFlags: 0
@@ -411,6 +445,7 @@ GameObject:
   - component: {fileID: 602027653}
   - component: {fileID: 602027652}
   - component: {fileID: 602027651}
+  - component: {fileID: 602027655}
   m_Layer: 0
   m_Name: Mercurio
   m_TagString: Untagged
@@ -492,6 +527,22 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &602027655
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 602027650}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b9b3bb2c265d27438ba6032fc506099, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  xAngle: 60
+  yAngle: 60
+  zAngle: 0
+  cube1: {fileID: 602027650}
 --- !u!1 &608093010
 GameObject:
   m_ObjectHideFlags: 0
@@ -504,6 +555,7 @@ GameObject:
   - component: {fileID: 608093013}
   - component: {fileID: 608093012}
   - component: {fileID: 608093011}
+  - component: {fileID: 608093015}
   m_Layer: 0
   m_Name: Jupiter
   m_TagString: Untagged
@@ -585,6 +637,22 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &608093015
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 608093010}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b9b3bb2c265d27438ba6032fc506099, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  xAngle: 60
+  yAngle: 60
+  zAngle: 0
+  cube1: {fileID: 608093010}
 --- !u!1 &631017300
 GameObject:
   m_ObjectHideFlags: 0
@@ -841,6 +909,7 @@ GameObject:
   - component: {fileID: 800001645}
   - component: {fileID: 800001644}
   - component: {fileID: 800001643}
+  - component: {fileID: 800001647}
   m_Layer: 0
   m_Name: Urano
   m_TagString: Untagged
@@ -922,6 +991,44 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &800001647
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 800001642}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b9b3bb2c265d27438ba6032fc506099, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  xAngle: 60
+  yAngle: 60
+  zAngle: 0
+  cube1: {fileID: 800001642}
+--- !u!1 &831373226 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 377a869488f3ec94b9d83d9e2ce49eaa,
+    type: 3}
+  m_PrefabInstance: {fileID: 2117707192}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &831373228
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 831373226}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b9b3bb2c265d27438ba6032fc506099, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  xAngle: 60
+  yAngle: 60
+  zAngle: 0
+  cube1: {fileID: 831373226}
 --- !u!1 &894751102
 GameObject:
   m_ObjectHideFlags: 0
@@ -6388,6 +6495,7 @@ GameObject:
   - component: {fileID: 1586094995}
   - component: {fileID: 1586094994}
   - component: {fileID: 1586094993}
+  - component: {fileID: 1586094997}
   m_Layer: 0
   m_Name: Marte
   m_TagString: Untagged
@@ -6469,6 +6577,22 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1586094997
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1586094992}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b9b3bb2c265d27438ba6032fc506099, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  xAngle: 60
+  yAngle: 60
+  zAngle: 0
+  cube1: {fileID: 1586094992}
 --- !u!1 &1602845091 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: b7b0a173595c8e44fb0eebccb8199679,
@@ -6637,6 +6761,7 @@ GameObject:
   - component: {fileID: 1868441699}
   - component: {fileID: 1868441698}
   - component: {fileID: 1868441697}
+  - component: {fileID: 1868441701}
   m_Layer: 0
   m_Name: Neptuno
   m_TagString: Untagged
@@ -6718,6 +6843,22 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1868441701
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1868441696}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b9b3bb2c265d27438ba6032fc506099, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  xAngle: 60
+  yAngle: 60
+  zAngle: 0
+  cube1: {fileID: 1868441696}
 --- !u!1 &1885427909
 GameObject:
   m_ObjectHideFlags: 0
